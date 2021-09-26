@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "outDir": "lib", 
+      "module": "esnext", // Specify module code generation
+      "target": "esnext",
+      "declaration": true, // Generate corresponding .d.ts file
+      "moduleResolution": "node", 
+    },
+    "include": [
+      "src" // *** The files TypeScript should type check ***
+    ],
+    "exclude": ["node_modules", "lib"] // *** The files to not type check ***
+  }
